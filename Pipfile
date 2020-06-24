@@ -5,6 +5,8 @@ verify_ssl = true
 
 [dev-packages]
 invoke = "*"
+wheel = "*"
+twine = "*"
 
 [packages]
 pyside2 = "*"
