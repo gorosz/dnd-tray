@@ -14,7 +14,7 @@ setup(name='dnd-tray',
       install_requires=[
           'pyside2',
       ],
-      scripts=['bin/dnd-tray'],
+      entry_points={'console_scripts': "dnd-tray=dnd_tray.dnd_tray:main"},
       include_package_data=True,
       python_requires=">=3.6",
       zip_safe=False)
